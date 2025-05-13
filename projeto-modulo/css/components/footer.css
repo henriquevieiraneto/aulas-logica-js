@@ -1,0 +1,15 @@
+footer{
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        li{
+            a{
+                color: #000;
+                &:hover{
+                    color: rgb(16, 84, 64);
+                }
+            }
+        }
+    }
+}
